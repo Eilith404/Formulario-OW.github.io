@@ -23,10 +23,10 @@
 <label for="contraseña"> Tu contraseña (cuidado con Sombra) </label><br>
 <input type="password" id="contraseña" name="contraseña" required><br><br>
 
-<h2><em> Pequeño test de personalidad para decidir en qué equipo encajas mejor. </em></h2><br><br>
+<h2><em> Pequeño test de personalidad para decidir en qué equipo encajas mejor. </em></h2><br>
 
 <!-- Héroe favorito -->
-<label for="heroe"> ¿Tu héroe favorito?</label><br>
+<label for="heroe"><strong> ¿Tu héroe favorito?</strong></label><br>
 <select id="heroe" name="heroe" required>
 <option value=""> --¡Elige sabiamente!--</option>
 <option value="Reindhardt"> Reindhardt</option>
