@@ -2,6 +2,104 @@
 <head>
 <meta charset="UTF-8">
 <title> Únete a Overwatch</title>
+<style>
+/* Tipografía futurista */
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(255, 255, 255)
+margin: 0;
+padding: 2rem;
+background-color: #000; /* Fallback para el fondo artístico */
+}
+
+/* Fondo artístico estilo Overwatch */
+body::before {
+content: "";
+position: fixed;
+top: 0; left: 0; right: 0; bottom: 0;
+background: linear-gradient(
+120deg,
+hsl(215, 100%, 40%) 0%,
+hsl(230, 80%, 50%) 50%,
+hsl(270, 80%, 30%) 100%
+);
+opacity: 0.8;
+z-index: -1;
+}
+
+h1 {
+color: #FFA500; /* Naranja Overwatch */
+text-align: center;
+margin-bottom: 1rem;
+}
+
+form {
+background-color: rgba(0, 0, 0, 0.6);
+border: 2px solid #FFA500;
+border-radius: 12px;
+padding: 20px;
+width: 90%;
+max-width: 600px;
+margin: auto;
+position: relative; /* Para posibles elementos absolutos dentro */
+}
+
+label {
+display: block;
+margin-top: 1rem;
+font-weight: bold;
+color: #FFD700;
+}
+
+input, select, textarea {
+width: 100%;
+padding: 8px;
+margin-top: 0.3rem;
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: #222;
+color: #fff;
+}
+
+button {
+margin-top: 1rem;
+margin-right: 0.5rem;
+padding: 10px 20px;
+background-color: #FFA500;
+border: none;
+color: white;
+font-weight: bold;
+cursor: pointer;
+border-radius: 6px;
+}
+
+button:hover {
+background-color: #ff7f00;
+}
+
+img {
+margin: 0.3rem;
+border-radius: 8px;
+position:static; /* base por defecto */
+}
+
+/* Un ejemplo de posicionamiento relative */
+#tanque {
+position: relative;
+top: 2px;
+}
+
+/* Fixed Logo arriba a la derecha */
+img[alt="Overwatch logo"] {
+position: fixed;
+top: 15px;
+right: 15px;
+width: 80px;
+height: auto;
+opacity: 0.3;
+}
+
+</style>
 </head>
 <body>
 
