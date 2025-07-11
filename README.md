@@ -6,7 +6,7 @@
 /* Tipografía futurista */
 body {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-color: rgb(255, 255, 255)
+color: rgb(255, 255, 255);
 margin: 0;
 padding: 2rem;
 background-color: #000; /* Fallback para el fondo artístico */
@@ -61,6 +61,31 @@ background-color: #222;
 color: #fff;
 }
 
+input[type="radio"],
+input[type="checkbox"] {
+width: auto;
+margin-right: 6px;
+vertical-align: middle;
+}
+
+label[for="tanque"],
+label[for="DPS"],
+label[for="support"],
+label[for="agresivo"],
+label[for="estrategico"],
+label[for="rapido"],
+label[for="protector"] {
+display: inline-flex;
+align-items: center;
+gap: 6px;
+margin-bottom: 6px;
+}
+
+label img{
+vertical-align: middle;
+margin-left: 4px;
+}
+
 button {
 margin-top: 1rem;
 margin-right: 0.5rem;
@@ -80,7 +105,6 @@ background-color: #ff7f00;
 img {
 margin: 0.3rem;
 border-radius: 8px;
-position:static; /* base por defecto */
 }
 
 /* Un ejemplo de posicionamiento relative */
@@ -103,7 +127,7 @@ opacity: 0.3;
 </head>
 <body>
 
-<!-- Banner motivador -->>
+<!-- Banner motivador -->
 <h1> Formulario para unirte a la lucha </h1>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Overwatch_circle_logo.svg/900px-Overwatch_circle_logo.svg.png" alt="Overwatch logo" width="250"><br><br>
 
